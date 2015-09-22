@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B0939F9F1BB0D2580043E471"
-               BuildableName = "Meteor OS X.framework"
+               BuildableName = "Meteor.framework"
                BlueprintName = "Meteor OS X"
                ReferencedContainer = "container:Meteor.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B0939F9F1BB0D2580043E471"
-            BuildableName = "Meteor OS X.framework"
+            BuildableName = "Meteor.framework"
             BlueprintName = "Meteor OS X"
             ReferencedContainer = "container:Meteor.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B0939F9F1BB0D2580043E471"
-            BuildableName = "Meteor OS X.framework"
+            BuildableName = "Meteor.framework"
             BlueprintName = "Meteor OS X"
             ReferencedContainer = "container:Meteor.xcodeproj">
          </BuildableReference>
