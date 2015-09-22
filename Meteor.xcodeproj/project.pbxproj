@@ -162,6 +162,97 @@
 		9FAB38F71AE3E88200E99519 /* NSString+METAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAB38AA1AE3E88200E99519 /* NSString+METAdditions.m */; };
 		9FAB39121AE3E8D700E99519 /* Meteor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FAB38421AE3E76900E99519 /* Meteor.framework */; };
 		9FFE08571AE41E5900416683 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FA46E671AE417AE00598B70 /* CoreData.framework */; };
+		B0939F381BB0D2300043E471 /* InflectorKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0939F341BB0D2300043E471 /* InflectorKit.framework */; settings = {ASSET_TAGS = (); }; };
+		B0939F391BB0D2300043E471 /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0939F351BB0D2300043E471 /* OCMock.framework */; settings = {ASSET_TAGS = (); }; };
+		B0939F3A1BB0D2300043E471 /* PocketSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0939F361BB0D2300043E471 /* PocketSocket.framework */; settings = {ASSET_TAGS = (); }; };
+		B0939F3B1BB0D2300043E471 /* SimpleKeychain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0939F371BB0D2300043E471 /* SimpleKeychain.framework */; settings = {ASSET_TAGS = (); }; };
+		B0939FA21BB0D2580043E471 /* METMethodInvocationCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAB38951AE3E88100E99519 /* METMethodInvocationCoordinator.m */; };
+		B0939FA31BB0D2580043E471 /* NSArray+METAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAB38A61AE3E88200E99519 /* NSArray+METAdditions.m */; };
+		B0939FA41BB0D2580043E471 /* METCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAB38661AE3E88100E99519 /* METCollection.m */; };
+		B0939FA51BB0D2580043E471 /* METIncrementalStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAB388D1AE3E88100E99519 /* METIncrementalStore.m */; };
+		B0939FA61BB0D2580043E471 /* METFetchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAB388A1AE3E88100E99519 /* METFetchRequest.m */; };
+		B0939FA71BB0D2580043E471 /* METNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAB38971AE3E88100E99519 /* METNetworkReachabilityManager.m */; };
+		B0939FA81BB0D2580043E471 /* METDDPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAB38771AE3E88100E99519 /* METDDPConnection.m */; };
+		B0939FA91BB0D2580043E471 /* METDocumentKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAB38831AE3E88100E99519 /* METDocumentKey.m */; };
+		B0939FAA1BB0D2580043E471 /* METDDPHeartbeat.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAB38791AE3E88100E99519 /* METDDPHeartbeat.m */; };
+		B0939FAB1BB0D2580043E471 /* METRetryStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAB389D1AE3E88100E99519 /* METRetryStrategy.m */; };
+		B0939FAC1BB0D2580043E471 /* METDDPMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAB387B1AE3E88100E99519 /* METDDPMessage.m */; };
+		B0939FAD1BB0D2580043E471 /* METRandomStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAB38991AE3E88100E99519 /* METRandomStream.m */; };
+		B0939FAE1BB0D2580043E471 /* METAleaRandomValueGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAB38611AE3E88100E99519 /* METAleaRandomValueGenerator.m */; };
+		B0939FAF1BB0D2580043E471 /* METDatabaseChanges.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAB386E1AE3E88100E99519 /* METDatabaseChanges.m */; };
+		B0939FB01BB0D2580043E471 /* METMethodInvocationContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAB38921AE3E88100E99519 /* METMethodInvocationContext.m */; };
+		B0939FB11BB0D2580043E471 /* METDocumentChangeDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAB38811AE3E88100E99519 /* METDocumentChangeDetails.m */; };
+		B0939FB21BB0D2580043E471 /* METDDPClient+AccountsPassword.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAB38751AE3E88100E99519 /* METDDPClient+AccountsPassword.m */; };
+		B0939FB31BB0D2580043E471 /* METTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAB38A41AE3E88100E99519 /* METTimer.m */; };
+		B0939FB41BB0D2580043E471 /* METAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAB385F1AE3E88100E99519 /* METAccount.m */; };
+		B0939FB51BB0D2580043E471 /* METBufferedDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAB38631AE3E88100E99519 /* METBufferedDocument.m */; };
+		B0939FB61BB0D2580043E471 /* NSDictionary+METAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAB38A81AE3E88200E99519 /* NSDictionary+METAdditions.m */; };
+		B0939FB71BB0D2580043E471 /* METMethodInvocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAB38901AE3E88100E99519 /* METMethodInvocation.m */; };
+		B0939FB81BB0D2580043E471 /* METDataUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAB38701AE3E88100E99519 /* METDataUpdate.m */; };
+		B0939FB91BB0D2580043E471 /* METSubscription.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAB38A01AE3E88100E99519 /* METSubscription.m */; };
+		B0939FBA1BB0D2580043E471 /* METEJSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAB38871AE3E88100E99519 /* METEJSONSerialization.m */; };
+		B0939FBB1BB0D2580043E471 /* METDDPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAB38731AE3E88100E99519 /* METDDPClient.m */; };
+		B0939FBC1BB0D2580043E471 /* METDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAB387D1AE3E88100E99519 /* METDocument.m */; };
+		B0939FBD1BB0D2580043E471 /* METCoreDataDDPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAB38681AE3E88100E99519 /* METCoreDataDDPClient.m */; };
+		B0939FBE1BB0D2580043E471 /* NSString+METAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAB38AA1AE3E88200E99519 /* NSString+METAdditions.m */; };
+		B0939FBF1BB0D2580043E471 /* METDocumentCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAB387F1AE3E88100E99519 /* METDocumentCache.m */; };
+		B0939FC01BB0D2580043E471 /* METDynamicVariable.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAB38851AE3E88100E99519 /* METDynamicVariable.m */; };
+		B0939FC11BB0D2580043E471 /* METSubscriptionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAB38A21AE3E88100E99519 /* METSubscriptionManager.m */; };
+		B0939FC21BB0D2580043E471 /* METDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAB386B1AE3E88100E99519 /* METDatabase.m */; };
+		B0939FC31BB0D2580043E471 /* METRandomValueGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAB389B1AE3E88100E99519 /* METRandomValueGenerator.m */; };
+		B0939FC51BB0D2580043E471 /* InflectorKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0939F341BB0D2300043E471 /* InflectorKit.framework */; settings = {ASSET_TAGS = (); }; };
+		B0939FC61BB0D2580043E471 /* PocketSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0939F361BB0D2300043E471 /* PocketSocket.framework */; settings = {ASSET_TAGS = (); }; };
+		B0939FC71BB0D2580043E471 /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0939F351BB0D2300043E471 /* OCMock.framework */; settings = {ASSET_TAGS = (); }; };
+		B0939FC81BB0D2580043E471 /* InflectorKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CBF1A551B18FF3C00967AEE /* InflectorKit.framework */; };
+		B0939FC91BB0D2580043E471 /* PocketSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CBF1A561B18FF3C00967AEE /* PocketSocket.framework */; };
+		B0939FCA1BB0D2580043E471 /* SimpleKeychain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0939F371BB0D2300043E471 /* SimpleKeychain.framework */; settings = {ASSET_TAGS = (); }; };
+		B0939FCB1BB0D2580043E471 /* SimpleKeychain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CBF1A571B18FF3C00967AEE /* SimpleKeychain.framework */; };
+		B0939FCD1BB0D2580043E471 /* Meteor.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FAB38471AE3E76900E99519 /* Meteor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0939FCE1BB0D2580043E471 /* METDDPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FAB38721AE3E88100E99519 /* METDDPClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0939FCF1BB0D2580043E471 /* METAccount.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FAB385E1AE3E88100E99519 /* METAccount.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0939FD01BB0D2580043E471 /* METDDPClient+AccountsPassword.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FAB38741AE3E88100E99519 /* METDDPClient+AccountsPassword.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0939FD11BB0D2580043E471 /* METSubscription.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FAB389F1AE3E88100E99519 /* METSubscription.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0939FD21BB0D2580043E471 /* METDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FAB386A1AE3E88100E99519 /* METDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0939FD31BB0D2580043E471 /* METCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FAB38651AE3E88100E99519 /* METCollection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0939FD41BB0D2580043E471 /* METDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FAB387C1AE3E88100E99519 /* METDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0939FD51BB0D2580043E471 /* METDocumentKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FAB38821AE3E88100E99519 /* METDocumentKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0939FD61BB0D2580043E471 /* METDatabaseChanges.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FAB386D1AE3E88100E99519 /* METDatabaseChanges.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0939FD71BB0D2580043E471 /* METDocumentChangeDetails.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FAB38801AE3E88100E99519 /* METDocumentChangeDetails.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0939FD81BB0D2580043E471 /* METCoreDataDDPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FAB38671AE3E88100E99519 /* METCoreDataDDPClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0939FD91BB0D2580043E471 /* METIncrementalStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FAB388C1AE3E88100E99519 /* METIncrementalStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0939FDA1BB0D2580043E471 /* NSString+METAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FAB38A91AE3E88200E99519 /* NSString+METAdditions.h */; };
+		B0939FDB1BB0D2580043E471 /* METDDPClient_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FAB38711AE3E88100E99519 /* METDDPClient_Internal.h */; };
+		B0939FDC1BB0D2580043E471 /* METDatabase_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FAB38691AE3E88100E99519 /* METDatabase_Internal.h */; };
+		B0939FDD1BB0D2580043E471 /* METMethodInvocation_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FAB388E1AE3E88100E99519 /* METMethodInvocation_Internal.h */; };
+		B0939FDE1BB0D2580043E471 /* METIncrementalStore_Testing.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FAB388B1AE3E88100E99519 /* METIncrementalStore_Testing.h */; };
+		B0939FDF1BB0D2580043E471 /* METMethodInvocationCoordinator_Testing.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FAB38931AE3E88100E99519 /* METMethodInvocationCoordinator_Testing.h */; };
+		B0939FE01BB0D2580043E471 /* METTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FAB38A31AE3E88100E99519 /* METTimer.h */; };
+		B0939FE11BB0D2580043E471 /* METSubscriptionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FAB38A11AE3E88100E99519 /* METSubscriptionManager.h */; };
+		B0939FE21BB0D2580043E471 /* METAleaRandomValueGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FAB38601AE3E88100E99519 /* METAleaRandomValueGenerator.h */; };
+		B0939FE31BB0D2580043E471 /* METDatabaseChanges_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FAB386C1AE3E88100E99519 /* METDatabaseChanges_Internal.h */; };
+		B0939FE41BB0D2580043E471 /* METMethodInvocationCoordinator.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FAB38941AE3E88100E99519 /* METMethodInvocationCoordinator.h */; };
+		B0939FE51BB0D2580043E471 /* METDDPConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FAB38761AE3E88100E99519 /* METDDPConnection.h */; };
+		B0939FE61BB0D2580043E471 /* METNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FAB38961AE3E88100E99519 /* METNetworkReachabilityManager.h */; };
+		B0939FE71BB0D2580043E471 /* METMethodInvocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FAB388F1AE3E88100E99519 /* METMethodInvocation.h */; };
+		B0939FE81BB0D2580043E471 /* METBufferedDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FAB38621AE3E88100E99519 /* METBufferedDocument.h */; };
+		B0939FE91BB0D2580043E471 /* METDataUpdate.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FAB386F1AE3E88100E99519 /* METDataUpdate.h */; };
+		B0939FEA1BB0D2580043E471 /* METDocumentCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FAB387E1AE3E88100E99519 /* METDocumentCache.h */; };
+		B0939FEB1BB0D2580043E471 /* METMethodInvocationContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FAB38911AE3E88100E99519 /* METMethodInvocationContext.h */; };
+		B0939FEC1BB0D2580043E471 /* METRetryStrategy.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FAB389C1AE3E88100E99519 /* METRetryStrategy.h */; };
+		B0939FED1BB0D2580043E471 /* METDDPMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FAB387A1AE3E88100E99519 /* METDDPMessage.h */; };
+		B0939FEE1BB0D2580043E471 /* METDDPHeartbeat.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FAB38781AE3E88100E99519 /* METDDPHeartbeat.h */; };
+		B0939FEF1BB0D2580043E471 /* METFetchRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FAB38891AE3E88100E99519 /* METFetchRequest.h */; };
+		B0939FF01BB0D2580043E471 /* METRandomStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FAB38981AE3E88100E99519 /* METRandomStream.h */; };
+		B0939FF11BB0D2580043E471 /* METRandomValueGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FAB389A1AE3E88100E99519 /* METRandomValueGenerator.h */; };
+		B0939FF21BB0D2580043E471 /* METEJSONSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FAB38861AE3E88100E99519 /* METEJSONSerialization.h */; };
+		B0939FF31BB0D2580043E471 /* METDynamicVariable.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FAB38841AE3E88100E99519 /* METDynamicVariable.h */; };
+		B0939FF41BB0D2580043E471 /* METCollection_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FAB38641AE3E88100E99519 /* METCollection_Internal.h */; };
+		B0939FF51BB0D2580043E471 /* METSubscription_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FAB389E1AE3E88100E99519 /* METSubscription_Internal.h */; };
+		B0939FF61BB0D2580043E471 /* NSArray+METAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FAB38A51AE3E88100E99519 /* NSArray+METAdditions.h */; };
+		B0939FF71BB0D2580043E471 /* NSDictionary+METAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FAB38A71AE3E88200E99519 /* NSDictionary+METAdditions.h */; };
+		B0939FFA1BB0D2580043E471 /* InflectorKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7CBF1A551B18FF3C00967AEE /* InflectorKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B0939FFB1BB0D2580043E471 /* PocketSocket.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7CBF1A561B18FF3C00967AEE /* PocketSocket.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B0939FFC1BB0D2580043E471 /* SimpleKeychain.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7CBF1A571B18FF3C00967AEE /* SimpleKeychain.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -220,6 +311,19 @@
 				9F2A961B1B19AC7E00DE99CC /* SimpleKeychain.framework in Copy Dependencies */,
 			);
 			name = "Copy Dependencies";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0939FF91BB0D2580043E471 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B0939FFA1BB0D2580043E471 /* InflectorKit.framework in Embed Frameworks */,
+				B0939FFB1BB0D2580043E471 /* PocketSocket.framework in Embed Frameworks */,
+				B0939FFC1BB0D2580043E471 /* SimpleKeychain.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -355,6 +459,13 @@
 		9FAB38FF1AE3E8C000E99519 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FAB390C1AE3E8D700E99519 /* Server Integration Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Server Integration Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FAB390F1AE3E8D700E99519 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0939F341BB0D2300043E471 /* InflectorKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InflectorKit.framework; path = Carthage/Build/Mac/InflectorKit.framework; sourceTree = "<group>"; };
+		B0939F351BB0D2300043E471 /* OCMock.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OCMock.framework; path = Carthage/Build/Mac/OCMock.framework; sourceTree = "<group>"; };
+		B0939F361BB0D2300043E471 /* PocketSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PocketSocket.framework; path = Carthage/Build/Mac/PocketSocket.framework; sourceTree = "<group>"; };
+		B0939F371BB0D2300043E471 /* SimpleKeychain.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SimpleKeychain.framework; path = Carthage/Build/Mac/SimpleKeychain.framework; sourceTree = "<group>"; };
+		B0939F9E1BB0D23E0043E471 /* Meteor iOS copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Meteor iOS copy-Info.plist"; path = "/Users/Shared/github/meteor-ios/Meteor iOS copy-Info.plist"; sourceTree = "<absolute>"; };
+		B093A0001BB0D2580043E471 /* Meteor OS X.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Meteor OS X.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B093A0011BB0D2580043E471 /* Meteor iOS copy2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Meteor iOS copy2-Info.plist"; path = "/Users/Shared/github/meteor-ios/Meteor iOS copy2-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -362,8 +473,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0939F381BB0D2300043E471 /* InflectorKit.framework in Frameworks */,
+				B0939F3A1BB0D2300043E471 /* PocketSocket.framework in Frameworks */,
+				B0939F391BB0D2300043E471 /* OCMock.framework in Frameworks */,
 				7CBF1A581B18FF3C00967AEE /* InflectorKit.framework in Frameworks */,
 				7CBF1A591B18FF3C00967AEE /* PocketSocket.framework in Frameworks */,
+				B0939F3B1BB0D2300043E471 /* SimpleKeychain.framework in Frameworks */,
 				7CBF1A5A1B18FF3C00967AEE /* SimpleKeychain.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -389,6 +504,20 @@
 				9F2A960F1B199E5A00DE99CC /* PocketSocket.framework in Frameworks */,
 				9F2A96101B199E5A00DE99CC /* SimpleKeychain.framework in Frameworks */,
 				9FAB39121AE3E8D700E99519 /* Meteor.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0939FC41BB0D2580043E471 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0939FC51BB0D2580043E471 /* InflectorKit.framework in Frameworks */,
+				B0939FC61BB0D2580043E471 /* PocketSocket.framework in Frameworks */,
+				B0939FC71BB0D2580043E471 /* OCMock.framework in Frameworks */,
+				B0939FC81BB0D2580043E471 /* InflectorKit.framework in Frameworks */,
+				B0939FC91BB0D2580043E471 /* PocketSocket.framework in Frameworks */,
+				B0939FCA1BB0D2580043E471 /* SimpleKeychain.framework in Frameworks */,
+				B0939FCB1BB0D2580043E471 /* SimpleKeychain.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -637,6 +766,8 @@
 				9F030F391AE3E93300BCC4C8 /* Tests */,
 				9FAB38431AE3E76900E99519 /* Products */,
 				CD177ED33A653A70E94323B2 /* Frameworks */,
+				B0939F9E1BB0D23E0043E471 /* Meteor iOS copy-Info.plist */,
+				B093A0011BB0D2580043E471 /* Meteor iOS copy2-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -646,6 +777,7 @@
 				9FAB38421AE3E76900E99519 /* Meteor.framework */,
 				9FAB38FC1AE3E8C000E99519 /* Unit Tests.xctest */,
 				9FAB390C1AE3E8D700E99519 /* Server Integration Tests.xctest */,
+				B093A0001BB0D2580043E471 /* Meteor OS X.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -735,7 +867,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		CD177ED33A653A70E94323B2 /* Frameworks */ = {
+		B0939F321BB0D1FA0043E471 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				9F2A96111B19A7F100DE99CC /* OCMock.framework */,
@@ -743,6 +875,26 @@
 				7CBF1A561B18FF3C00967AEE /* PocketSocket.framework */,
 				7CBF1A571B18FF3C00967AEE /* SimpleKeychain.framework */,
 				9FA46E671AE417AE00598B70 /* CoreData.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B0939F331BB0D20E0043E471 /* OSX */ = {
+			isa = PBXGroup;
+			children = (
+				B0939F341BB0D2300043E471 /* InflectorKit.framework */,
+				B0939F351BB0D2300043E471 /* OCMock.framework */,
+				B0939F361BB0D2300043E471 /* PocketSocket.framework */,
+				B0939F371BB0D2300043E471 /* SimpleKeychain.framework */,
+			);
+			name = OSX;
+			sourceTree = "<group>";
+		};
+		CD177ED33A653A70E94323B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0939F331BB0D20E0043E471 /* OSX */,
+				B0939F321BB0D1FA0043E471 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -797,6 +949,56 @@
 				9FAB38EB1AE3E88200E99519 /* METSubscription_Internal.h in Headers */,
 				9FAB38F21AE3E88200E99519 /* NSArray+METAdditions.h in Headers */,
 				9FAB38F41AE3E88200E99519 /* NSDictionary+METAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0939FCC1BB0D2580043E471 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0939FCD1BB0D2580043E471 /* Meteor.h in Headers */,
+				B0939FCE1BB0D2580043E471 /* METDDPClient.h in Headers */,
+				B0939FCF1BB0D2580043E471 /* METAccount.h in Headers */,
+				B0939FD01BB0D2580043E471 /* METDDPClient+AccountsPassword.h in Headers */,
+				B0939FD11BB0D2580043E471 /* METSubscription.h in Headers */,
+				B0939FD21BB0D2580043E471 /* METDatabase.h in Headers */,
+				B0939FD31BB0D2580043E471 /* METCollection.h in Headers */,
+				B0939FD41BB0D2580043E471 /* METDocument.h in Headers */,
+				B0939FD51BB0D2580043E471 /* METDocumentKey.h in Headers */,
+				B0939FD61BB0D2580043E471 /* METDatabaseChanges.h in Headers */,
+				B0939FD71BB0D2580043E471 /* METDocumentChangeDetails.h in Headers */,
+				B0939FD81BB0D2580043E471 /* METCoreDataDDPClient.h in Headers */,
+				B0939FD91BB0D2580043E471 /* METIncrementalStore.h in Headers */,
+				B0939FDA1BB0D2580043E471 /* NSString+METAdditions.h in Headers */,
+				B0939FDB1BB0D2580043E471 /* METDDPClient_Internal.h in Headers */,
+				B0939FDC1BB0D2580043E471 /* METDatabase_Internal.h in Headers */,
+				B0939FDD1BB0D2580043E471 /* METMethodInvocation_Internal.h in Headers */,
+				B0939FDE1BB0D2580043E471 /* METIncrementalStore_Testing.h in Headers */,
+				B0939FDF1BB0D2580043E471 /* METMethodInvocationCoordinator_Testing.h in Headers */,
+				B0939FE01BB0D2580043E471 /* METTimer.h in Headers */,
+				B0939FE11BB0D2580043E471 /* METSubscriptionManager.h in Headers */,
+				B0939FE21BB0D2580043E471 /* METAleaRandomValueGenerator.h in Headers */,
+				B0939FE31BB0D2580043E471 /* METDatabaseChanges_Internal.h in Headers */,
+				B0939FE41BB0D2580043E471 /* METMethodInvocationCoordinator.h in Headers */,
+				B0939FE51BB0D2580043E471 /* METDDPConnection.h in Headers */,
+				B0939FE61BB0D2580043E471 /* METNetworkReachabilityManager.h in Headers */,
+				B0939FE71BB0D2580043E471 /* METMethodInvocation.h in Headers */,
+				B0939FE81BB0D2580043E471 /* METBufferedDocument.h in Headers */,
+				B0939FE91BB0D2580043E471 /* METDataUpdate.h in Headers */,
+				B0939FEA1BB0D2580043E471 /* METDocumentCache.h in Headers */,
+				B0939FEB1BB0D2580043E471 /* METMethodInvocationContext.h in Headers */,
+				B0939FEC1BB0D2580043E471 /* METRetryStrategy.h in Headers */,
+				B0939FED1BB0D2580043E471 /* METDDPMessage.h in Headers */,
+				B0939FEE1BB0D2580043E471 /* METDDPHeartbeat.h in Headers */,
+				B0939FEF1BB0D2580043E471 /* METFetchRequest.h in Headers */,
+				B0939FF01BB0D2580043E471 /* METRandomStream.h in Headers */,
+				B0939FF11BB0D2580043E471 /* METRandomValueGenerator.h in Headers */,
+				B0939FF21BB0D2580043E471 /* METEJSONSerialization.h in Headers */,
+				B0939FF31BB0D2580043E471 /* METDynamicVariable.h in Headers */,
+				B0939FF41BB0D2580043E471 /* METCollection_Internal.h in Headers */,
+				B0939FF51BB0D2580043E471 /* METSubscription_Internal.h in Headers */,
+				B0939FF61BB0D2580043E471 /* NSArray+METAdditions.h in Headers */,
+				B0939FF71BB0D2580043E471 /* NSDictionary+METAdditions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -861,6 +1063,26 @@
 			productReference = 9FAB390C1AE3E8D700E99519 /* Server Integration Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		B0939F9F1BB0D2580043E471 /* Meteor OS X */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0939FFD1BB0D2580043E471 /* Build configuration list for PBXNativeTarget "Meteor OS X" */;
+			buildPhases = (
+				B0939FA01BB0D2580043E471 /* Set Version */,
+				B0939FA11BB0D2580043E471 /* Sources */,
+				B0939FC41BB0D2580043E471 /* Frameworks */,
+				B0939FCC1BB0D2580043E471 /* Headers */,
+				B0939FF81BB0D2580043E471 /* Resources */,
+				B0939FF91BB0D2580043E471 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Meteor OS X";
+			productName = Meteor;
+			productReference = B093A0001BB0D2580043E471 /* Meteor OS X.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -900,6 +1122,7 @@
 				9FAB38FB1AE3E8C000E99519 /* Unit Tests */,
 				9FAB390B1AE3E8D700E99519 /* Server Integration Tests */,
 				9F1EEB8C1B0357AF00402BFB /* API Documentation */,
+				B0939F9F1BB0D2580043E471 /* Meteor OS X */,
 			);
 		};
 /* End PBXProject section */
@@ -926,6 +1149,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B0939FF81BB0D2580043E471 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -944,6 +1174,21 @@
 			shellScript = "export PATH=\"/usr/local/var/rbenv/shims:${PATH}\"\n\nOUTPUT_DIR=\"${BUILT_PRODUCTS_DIR}/Documentation\"\nVERSION=$(<VERSION)\nPUBLIC_HEADER_FILES=$($PROJECT_DIR/Scripts/find_headers.rb --project Meteor --target \"Meteor iOS\" --public)\n\n/usr/local/bin/appledoc \\\n--clean-output \\\n--project-version VERSION \\\n--exit-threshold 2 \\\n--create-html \\\n--no-create-docset \\\n--no-install-docset \\\n--output $OUTPUT_DIR \\\n\"${PROJECT_DIR}/Documentation/AppledocSettings.plist\" \\\n$PUBLIC_HEADER_FILES\n\nopen \"${OUTPUT_DIR}/html/index.html\"";
 		};
 		9F2A9D761B2C9313002DD57A /* Set Version */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Set Version";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ./Scripts/set_version.sh;
+			showEnvVarsInLog = 0;
+		};
+		B0939FA01BB0D2580043E471 /* Set Version */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1054,6 +1299,47 @@
 				9F2F63DD1AE3EBCE005E98DA /* Model.xcdatamodeld in Sources */,
 				9F030F7E1AE3E9A800BCC4C8 /* METSubscriptionsTests.m in Sources */,
 				9F2F63D21AE3EBC1005E98DA /* MockMETDDPConnection.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0939FA11BB0D2580043E471 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0939FA21BB0D2580043E471 /* METMethodInvocationCoordinator.m in Sources */,
+				B0939FA31BB0D2580043E471 /* NSArray+METAdditions.m in Sources */,
+				B0939FA41BB0D2580043E471 /* METCollection.m in Sources */,
+				B0939FA51BB0D2580043E471 /* METIncrementalStore.m in Sources */,
+				B0939FA61BB0D2580043E471 /* METFetchRequest.m in Sources */,
+				B0939FA71BB0D2580043E471 /* METNetworkReachabilityManager.m in Sources */,
+				B0939FA81BB0D2580043E471 /* METDDPConnection.m in Sources */,
+				B0939FA91BB0D2580043E471 /* METDocumentKey.m in Sources */,
+				B0939FAA1BB0D2580043E471 /* METDDPHeartbeat.m in Sources */,
+				B0939FAB1BB0D2580043E471 /* METRetryStrategy.m in Sources */,
+				B0939FAC1BB0D2580043E471 /* METDDPMessage.m in Sources */,
+				B0939FAD1BB0D2580043E471 /* METRandomStream.m in Sources */,
+				B0939FAE1BB0D2580043E471 /* METAleaRandomValueGenerator.m in Sources */,
+				B0939FAF1BB0D2580043E471 /* METDatabaseChanges.m in Sources */,
+				B0939FB01BB0D2580043E471 /* METMethodInvocationContext.m in Sources */,
+				B0939FB11BB0D2580043E471 /* METDocumentChangeDetails.m in Sources */,
+				B0939FB21BB0D2580043E471 /* METDDPClient+AccountsPassword.m in Sources */,
+				B0939FB31BB0D2580043E471 /* METTimer.m in Sources */,
+				B0939FB41BB0D2580043E471 /* METAccount.m in Sources */,
+				B0939FB51BB0D2580043E471 /* METBufferedDocument.m in Sources */,
+				B0939FB61BB0D2580043E471 /* NSDictionary+METAdditions.m in Sources */,
+				B0939FB71BB0D2580043E471 /* METMethodInvocation.m in Sources */,
+				B0939FB81BB0D2580043E471 /* METDataUpdate.m in Sources */,
+				B0939FB91BB0D2580043E471 /* METSubscription.m in Sources */,
+				B0939FBA1BB0D2580043E471 /* METEJSONSerialization.m in Sources */,
+				B0939FBB1BB0D2580043E471 /* METDDPClient.m in Sources */,
+				B0939FBC1BB0D2580043E471 /* METDocument.m in Sources */,
+				B0939FBD1BB0D2580043E471 /* METCoreDataDDPClient.m in Sources */,
+				B0939FBE1BB0D2580043E471 /* NSString+METAdditions.m in Sources */,
+				B0939FBF1BB0D2580043E471 /* METDocumentCache.m in Sources */,
+				B0939FC01BB0D2580043E471 /* METDynamicVariable.m in Sources */,
+				B0939FC11BB0D2580043E471 /* METSubscriptionManager.m in Sources */,
+				B0939FC21BB0D2580043E471 /* METDatabase.m in Sources */,
+				B0939FC31BB0D2580043E471 /* METRandomValueGenerator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1184,6 +1470,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
 				INFOPLIST_FILE = Meteor/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -1205,6 +1492,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
 				INFOPLIST_FILE = Meteor/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -1290,6 +1578,51 @@
 			};
 			name = Release;
 		};
+		B0939FFE1BB0D2580043E471 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = "Meteor iOS copy2-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B0939FFF1BB0D2580043E471 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = "Meteor iOS copy2-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1334,6 +1667,15 @@
 			buildConfigurations = (
 				9FAB39161AE3E8D700E99519 /* Debug */,
 				9FAB39171AE3E8D700E99519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0939FFD1BB0D2580043E471 /* Build configuration list for PBXNativeTarget "Meteor OS X" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0939FFE1BB0D2580043E471 /* Debug */,
+				B0939FFF1BB0D2580043E471 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
