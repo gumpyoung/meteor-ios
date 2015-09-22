@@ -21,9 +21,6 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		7CBF1A581B18FF3C00967AEE /* InflectorKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CBF1A551B18FF3C00967AEE /* InflectorKit.framework */; };
-		7CBF1A591B18FF3C00967AEE /* PocketSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CBF1A561B18FF3C00967AEE /* PocketSocket.framework */; };
-		7CBF1A5A1B18FF3C00967AEE /* SimpleKeychain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CBF1A571B18FF3C00967AEE /* SimpleKeychain.framework */; };
 		7CBF1A5C1B18FFAA00967AEE /* InflectorKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7CBF1A551B18FF3C00967AEE /* InflectorKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7CBF1A5D1B18FFAA00967AEE /* PocketSocket.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7CBF1A561B18FF3C00967AEE /* PocketSocket.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7CBF1A5E1B18FFAA00967AEE /* SimpleKeychain.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7CBF1A571B18FF3C00967AEE /* SimpleKeychain.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -162,10 +159,6 @@
 		9FAB38F71AE3E88200E99519 /* NSString+METAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAB38AA1AE3E88200E99519 /* NSString+METAdditions.m */; };
 		9FAB39121AE3E8D700E99519 /* Meteor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FAB38421AE3E76900E99519 /* Meteor.framework */; };
 		9FFE08571AE41E5900416683 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FA46E671AE417AE00598B70 /* CoreData.framework */; };
-		B0939F381BB0D2300043E471 /* InflectorKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0939F341BB0D2300043E471 /* InflectorKit.framework */; settings = {ASSET_TAGS = (); }; };
-		B0939F391BB0D2300043E471 /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0939F351BB0D2300043E471 /* OCMock.framework */; settings = {ASSET_TAGS = (); }; };
-		B0939F3A1BB0D2300043E471 /* PocketSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0939F361BB0D2300043E471 /* PocketSocket.framework */; settings = {ASSET_TAGS = (); }; };
-		B0939F3B1BB0D2300043E471 /* SimpleKeychain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0939F371BB0D2300043E471 /* SimpleKeychain.framework */; settings = {ASSET_TAGS = (); }; };
 		B0939FA21BB0D2580043E471 /* METMethodInvocationCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAB38951AE3E88100E99519 /* METMethodInvocationCoordinator.m */; };
 		B0939FA31BB0D2580043E471 /* NSArray+METAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAB38A61AE3E88200E99519 /* NSArray+METAdditions.m */; };
 		B0939FA41BB0D2580043E471 /* METCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAB38661AE3E88100E99519 /* METCollection.m */; };
@@ -200,13 +193,6 @@
 		B0939FC11BB0D2580043E471 /* METSubscriptionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAB38A21AE3E88100E99519 /* METSubscriptionManager.m */; };
 		B0939FC21BB0D2580043E471 /* METDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAB386B1AE3E88100E99519 /* METDatabase.m */; };
 		B0939FC31BB0D2580043E471 /* METRandomValueGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAB389B1AE3E88100E99519 /* METRandomValueGenerator.m */; };
-		B0939FC51BB0D2580043E471 /* InflectorKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0939F341BB0D2300043E471 /* InflectorKit.framework */; settings = {ASSET_TAGS = (); }; };
-		B0939FC61BB0D2580043E471 /* PocketSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0939F361BB0D2300043E471 /* PocketSocket.framework */; settings = {ASSET_TAGS = (); }; };
-		B0939FC71BB0D2580043E471 /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0939F351BB0D2300043E471 /* OCMock.framework */; settings = {ASSET_TAGS = (); }; };
-		B0939FC81BB0D2580043E471 /* InflectorKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CBF1A551B18FF3C00967AEE /* InflectorKit.framework */; };
-		B0939FC91BB0D2580043E471 /* PocketSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CBF1A561B18FF3C00967AEE /* PocketSocket.framework */; };
-		B0939FCA1BB0D2580043E471 /* SimpleKeychain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0939F371BB0D2300043E471 /* SimpleKeychain.framework */; settings = {ASSET_TAGS = (); }; };
-		B0939FCB1BB0D2580043E471 /* SimpleKeychain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CBF1A571B18FF3C00967AEE /* SimpleKeychain.framework */; };
 		B0939FCD1BB0D2580043E471 /* Meteor.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FAB38471AE3E76900E99519 /* Meteor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B0939FCE1BB0D2580043E471 /* METDDPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FAB38721AE3E88100E99519 /* METDDPClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B0939FCF1BB0D2580043E471 /* METAccount.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FAB385E1AE3E88100E99519 /* METAccount.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -250,9 +236,19 @@
 		B0939FF51BB0D2580043E471 /* METSubscription_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FAB389E1AE3E88100E99519 /* METSubscription_Internal.h */; };
 		B0939FF61BB0D2580043E471 /* NSArray+METAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FAB38A51AE3E88100E99519 /* NSArray+METAdditions.h */; };
 		B0939FF71BB0D2580043E471 /* NSDictionary+METAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FAB38A71AE3E88200E99519 /* NSDictionary+METAdditions.h */; };
-		B0939FFA1BB0D2580043E471 /* InflectorKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7CBF1A551B18FF3C00967AEE /* InflectorKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		B0939FFB1BB0D2580043E471 /* PocketSocket.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7CBF1A561B18FF3C00967AEE /* PocketSocket.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		B0939FFC1BB0D2580043E471 /* SimpleKeychain.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7CBF1A571B18FF3C00967AEE /* SimpleKeychain.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B09665A21BB0D9290043BF56 /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2A96111B19A7F100DE99CC /* OCMock.framework */; };
+		B09665A31BB0D9290043BF56 /* InflectorKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CBF1A551B18FF3C00967AEE /* InflectorKit.framework */; };
+		B09665A41BB0D9290043BF56 /* PocketSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CBF1A561B18FF3C00967AEE /* PocketSocket.framework */; };
+		B09665A51BB0D9290043BF56 /* SimpleKeychain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CBF1A571B18FF3C00967AEE /* SimpleKeychain.framework */; };
+		B09665A61BB0D9290043BF56 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FA46E671AE417AE00598B70 /* CoreData.framework */; };
+		B09665A71BB0DA4A0043BF56 /* InflectorKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0939F341BB0D2300043E471 /* InflectorKit.framework */; };
+		B09665A81BB0DA4A0043BF56 /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0939F351BB0D2300043E471 /* OCMock.framework */; };
+		B09665A91BB0DA4A0043BF56 /* PocketSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0939F361BB0D2300043E471 /* PocketSocket.framework */; };
+		B09665AA1BB0DA4A0043BF56 /* SimpleKeychain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0939F371BB0D2300043E471 /* SimpleKeychain.framework */; };
+		B09665AB1BB0DA6A0043BF56 /* InflectorKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B0939F341BB0D2300043E471 /* InflectorKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B09665AC1BB0DA6A0043BF56 /* PocketSocket.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B0939F361BB0D2300043E471 /* PocketSocket.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B09665AD1BB0DA6A0043BF56 /* SimpleKeychain.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B0939F371BB0D2300043E471 /* SimpleKeychain.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B09665AE1BB0DACA0043BF56 /* OCMock.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B0939F351BB0D2300043E471 /* OCMock.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -319,9 +315,10 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				B0939FFA1BB0D2580043E471 /* InflectorKit.framework in Embed Frameworks */,
-				B0939FFB1BB0D2580043E471 /* PocketSocket.framework in Embed Frameworks */,
-				B0939FFC1BB0D2580043E471 /* SimpleKeychain.framework in Embed Frameworks */,
+				B09665AB1BB0DA6A0043BF56 /* InflectorKit.framework in Embed Frameworks */,
+				B09665AC1BB0DA6A0043BF56 /* PocketSocket.framework in Embed Frameworks */,
+				B09665AD1BB0DA6A0043BF56 /* SimpleKeychain.framework in Embed Frameworks */,
+				B09665AE1BB0DACA0043BF56 /* OCMock.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -463,9 +460,8 @@
 		B0939F351BB0D2300043E471 /* OCMock.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OCMock.framework; path = Carthage/Build/Mac/OCMock.framework; sourceTree = "<group>"; };
 		B0939F361BB0D2300043E471 /* PocketSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PocketSocket.framework; path = Carthage/Build/Mac/PocketSocket.framework; sourceTree = "<group>"; };
 		B0939F371BB0D2300043E471 /* SimpleKeychain.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SimpleKeychain.framework; path = Carthage/Build/Mac/SimpleKeychain.framework; sourceTree = "<group>"; };
-		B0939F9E1BB0D23E0043E471 /* Meteor iOS copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Meteor iOS copy-Info.plist"; path = "/Users/Shared/github/meteor-ios/Meteor iOS copy-Info.plist"; sourceTree = "<absolute>"; };
-		B093A0001BB0D2580043E471 /* Meteor OS X.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Meteor OS X.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B093A0011BB0D2580043E471 /* Meteor iOS copy2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Meteor iOS copy2-Info.plist"; path = "/Users/Shared/github/meteor-ios/Meteor iOS copy2-Info.plist"; sourceTree = "<absolute>"; };
+		B093A0001BB0D2580043E471 /* Meteor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Meteor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B093A0011BB0D2580043E471 /* Meteor OS X-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Meteor OS X-Info.plist"; path = "/Users/Shared/github/meteor-ios/Meteor OS X-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -473,13 +469,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0939F381BB0D2300043E471 /* InflectorKit.framework in Frameworks */,
-				B0939F3A1BB0D2300043E471 /* PocketSocket.framework in Frameworks */,
-				B0939F391BB0D2300043E471 /* OCMock.framework in Frameworks */,
-				7CBF1A581B18FF3C00967AEE /* InflectorKit.framework in Frameworks */,
-				7CBF1A591B18FF3C00967AEE /* PocketSocket.framework in Frameworks */,
-				B0939F3B1BB0D2300043E471 /* SimpleKeychain.framework in Frameworks */,
-				7CBF1A5A1B18FF3C00967AEE /* SimpleKeychain.framework in Frameworks */,
+				B09665A21BB0D9290043BF56 /* OCMock.framework in Frameworks */,
+				B09665A31BB0D9290043BF56 /* InflectorKit.framework in Frameworks */,
+				B09665A41BB0D9290043BF56 /* PocketSocket.framework in Frameworks */,
+				B09665A51BB0D9290043BF56 /* SimpleKeychain.framework in Frameworks */,
+				B09665A61BB0D9290043BF56 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,13 +505,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0939FC51BB0D2580043E471 /* InflectorKit.framework in Frameworks */,
-				B0939FC61BB0D2580043E471 /* PocketSocket.framework in Frameworks */,
-				B0939FC71BB0D2580043E471 /* OCMock.framework in Frameworks */,
-				B0939FC81BB0D2580043E471 /* InflectorKit.framework in Frameworks */,
-				B0939FC91BB0D2580043E471 /* PocketSocket.framework in Frameworks */,
-				B0939FCA1BB0D2580043E471 /* SimpleKeychain.framework in Frameworks */,
-				B0939FCB1BB0D2580043E471 /* SimpleKeychain.framework in Frameworks */,
+				B09665A71BB0DA4A0043BF56 /* InflectorKit.framework in Frameworks */,
+				B09665A81BB0DA4A0043BF56 /* OCMock.framework in Frameworks */,
+				B09665A91BB0DA4A0043BF56 /* PocketSocket.framework in Frameworks */,
+				B09665AA1BB0DA4A0043BF56 /* SimpleKeychain.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -766,8 +757,6 @@
 				9F030F391AE3E93300BCC4C8 /* Tests */,
 				9FAB38431AE3E76900E99519 /* Products */,
 				CD177ED33A653A70E94323B2 /* Frameworks */,
-				B0939F9E1BB0D23E0043E471 /* Meteor iOS copy-Info.plist */,
-				B093A0011BB0D2580043E471 /* Meteor iOS copy2-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -777,7 +766,7 @@
 				9FAB38421AE3E76900E99519 /* Meteor.framework */,
 				9FAB38FC1AE3E8C000E99519 /* Unit Tests.xctest */,
 				9FAB390C1AE3E8D700E99519 /* Server Integration Tests.xctest */,
-				B093A0001BB0D2580043E471 /* Meteor OS X.framework */,
+				B093A0001BB0D2580043E471 /* Meteor.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -811,6 +800,7 @@
 			isa = PBXGroup;
 			children = (
 				9FAB38461AE3E76900E99519 /* Info.plist */,
+				B093A0011BB0D2580043E471 /* Meteor OS X-Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -1080,7 +1070,7 @@
 			);
 			name = "Meteor OS X";
 			productName = Meteor;
-			productReference = B093A0001BB0D2580043E471 /* Meteor OS X.framework */;
+			productReference = B093A0001BB0D2580043E471 /* Meteor.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -1470,7 +1460,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
-					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
 				INFOPLIST_FILE = Meteor/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -1492,7 +1481,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
-					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
 				INFOPLIST_FILE = Meteor/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -1588,13 +1576,12 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
-				INFOPLIST_FILE = "Meteor iOS copy2-Info.plist";
+				INFOPLIST_FILE = "Meteor OS X-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Meteor;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1611,13 +1598,12 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
-				INFOPLIST_FILE = "Meteor iOS copy2-Info.plist";
+				INFOPLIST_FILE = "Meteor OS X-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Meteor;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};

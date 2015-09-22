@@ -14,23 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9FAB38411AE3E76900E99519"
-               BuildableName = "Meteor.framework"
-               BlueprintName = "Meteor iOS"
-               ReferencedContainer = "container:Meteor.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9FAB384C1AE3E76900E99519"
-               BuildableName = "MeteorTests.xctest"
-               BlueprintName = "MeteorTests"
+               BlueprintIdentifier = "B0939F9F1BB0D2580043E471"
+               BuildableName = "Meteor OS X.framework"
+               BlueprintName = "Meteor OS X"
                ReferencedContainer = "container:Meteor.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -42,26 +28,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9FAB384C1AE3E76900E99519"
-               BuildableName = "MeteorTests.xctest"
-               BlueprintName = "MeteorTests"
-               ReferencedContainer = "container:Meteor.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9FAB38411AE3E76900E99519"
-            BuildableName = "Meteor.framework"
-            BlueprintName = "Meteor iOS"
-            ReferencedContainer = "container:Meteor.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -78,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9FAB38411AE3E76900E99519"
-            BuildableName = "Meteor.framework"
-            BlueprintName = "Meteor iOS"
+            BlueprintIdentifier = "B0939F9F1BB0D2580043E471"
+            BuildableName = "Meteor OS X.framework"
+            BlueprintName = "Meteor OS X"
             ReferencedContainer = "container:Meteor.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -96,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9FAB38411AE3E76900E99519"
-            BuildableName = "Meteor.framework"
-            BlueprintName = "Meteor iOS"
+            BlueprintIdentifier = "B0939F9F1BB0D2580043E471"
+            BuildableName = "Meteor OS X.framework"
+            BlueprintName = "Meteor OS X"
             ReferencedContainer = "container:Meteor.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

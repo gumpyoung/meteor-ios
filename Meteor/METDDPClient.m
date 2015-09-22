@@ -21,7 +21,10 @@
 #import "METDDPClient.h"
 #import "METDDPClient_Internal.h"
 
+#ifdef TARGET_OS_MAC
+#else
 #import <UIKit/UIKit.h>
+#endif
 
 #import "METDDPConnection.h"
 #import "METRetryStrategy.h"
@@ -63,8 +66,9 @@ NSString * const METDDPClientDidChangeAccountNotification = @"METDDPClientDidCha
   METTimer *_connectionRetryTimer;
   NSUInteger _numberOfConnectionRetryAttempts;
   METNetworkReachabilityManager *_networkReachabilityManager;
+#ifndef TARGET_OS_MAC
   UIBackgroundTaskIdentifier _keepAliveBackgroundTask;
-  
+#endif
   NSString *_sessionID;
   
   METDDPHeartbeat *_heartbeat;
@@ -109,8 +113,9 @@ NSString * const METDDPClientDidChangeAccountNotification = @"METDDPClientDidCha
     _networkReachabilityManager.delegateQueue = _queue;
     [_networkReachabilityManager startMonitoring];
     
+#ifndef TARGET_OS_MAC
     _keepAliveBackgroundTask = UIBackgroundTaskInvalid;
-    
+#endif
     _supportedProtocolVersions = @[@"1", @"pre2", @"pre1"];
     _suggestedProtocolVersion = @"1";
     
@@ -123,8 +128,10 @@ NSString * const METDDPClientDidChangeAccountNotification = @"METDDPClientDidCha
     
     _methodInvocationCoordinator = [[METMethodInvocationCoordinator alloc] initWithClient:self];
     
+#ifndef TARGET_OS_MAC
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(applicationDidEnterBackground:) name:UIApplicationDidEnterBackgroundNotification object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(applicationWillEnterForeground:) name:UIApplicationWillEnterForegroundNotification object:nil];
+#endif
   }
   return self;
 }
@@ -138,7 +145,7 @@ NSString * const METDDPClientDidChangeAccountNotification = @"METDDPClientDidCha
 }
 
 #pragma mark - Application State Notifications
-
+#ifndef TARGET_OS_MAC
 - (void)applicationDidEnterBackground:(NSNotification *)notification {
   _keepAliveBackgroundTask = [[UIApplication sharedApplication] beginBackgroundTaskWithName:@"com.meteor.keep-alive" expirationHandler:^{
     _keepAliveBackgroundTask = UIBackgroundTaskInvalid;
@@ -154,6 +161,8 @@ NSString * const METDDPClientDidChangeAccountNotification = @"METDDPClientDidCha
   
   [self connect];
 }
+#endif
+
 
 #pragma mark - Connecting
 
@@ -262,10 +271,11 @@ NSString * const METDDPClientDidChangeAccountNotification = @"METDDPClientDidCha
 #pragma mark - METNetworkReachabilityManagerDelegate
 
 - (void)networkReachabilityManager:(METNetworkReachabilityManager *)reachabilityManager didDetectReachabilityStatusChange:(METNetworkReachabilityStatus)reachabilityStatus {
-  
+#ifndef TARGET_OS_MAC
   if (reachabilityStatus == METNetworkReachabilityStatusReachable && [UIApplication sharedApplication].applicationState != UIApplicationStateBackground) {
     [self connect];
   }
+#endif
 }
 
 #pragma mark - Message Handling
