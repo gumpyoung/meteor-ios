@@ -249,6 +249,8 @@
 		B09665AC1BB0DA6A0043BF56 /* PocketSocket.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B0939F361BB0D2300043E471 /* PocketSocket.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B09665AD1BB0DA6A0043BF56 /* SimpleKeychain.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B0939F371BB0D2300043E471 /* SimpleKeychain.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B09665AE1BB0DACA0043BF56 /* OCMock.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B0939F351BB0D2300043E471 /* OCMock.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B09665AF1BB0E61B0043BF56 /* OCMock.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2A96111B19A7F100DE99CC /* OCMock.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B09665B11BB0E6830043BF56 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B09665B01BB0E6830043BF56 /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -277,6 +279,7 @@
 			files = (
 				7CBF1A5C1B18FFAA00967AEE /* InflectorKit.framework in Embed Frameworks */,
 				7CBF1A5D1B18FFAA00967AEE /* PocketSocket.framework in Embed Frameworks */,
+				B09665AF1BB0E61B0043BF56 /* OCMock.framework in Embed Frameworks */,
 				7CBF1A5E1B18FFAA00967AEE /* SimpleKeychain.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -462,6 +465,7 @@
 		B0939F371BB0D2300043E471 /* SimpleKeychain.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SimpleKeychain.framework; path = Carthage/Build/Mac/SimpleKeychain.framework; sourceTree = "<group>"; };
 		B093A0001BB0D2580043E471 /* Meteor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Meteor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B093A0011BB0D2580043E471 /* Meteor OS X-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Meteor OS X-Info.plist"; path = "/Users/Shared/github/meteor-ios/Meteor OS X-Info.plist"; sourceTree = "<absolute>"; };
+		B09665B01BB0E6830043BF56 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -505,6 +509,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B09665B11BB0E6830043BF56 /* CoreData.framework in Frameworks */,
 				B09665A71BB0DA4A0043BF56 /* InflectorKit.framework in Frameworks */,
 				B09665A81BB0DA4A0043BF56 /* OCMock.framework in Frameworks */,
 				B09665A91BB0DA4A0043BF56 /* PocketSocket.framework in Frameworks */,
@@ -872,6 +877,7 @@
 		B0939F331BB0D20E0043E471 /* OSX */ = {
 			isa = PBXGroup;
 			children = (
+				B09665B01BB0E6830043BF56 /* CoreData.framework */,
 				B0939F341BB0D2300043E471 /* InflectorKit.framework */,
 				B0939F351BB0D2300043E471 /* OCMock.framework */,
 				B0939F361BB0D2300043E471 /* PocketSocket.framework */,
